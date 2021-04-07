@@ -9,7 +9,7 @@ class Landing extends Component {
         <Grid className="landing-grid">
           <Cell col={12}>
             <img
-              src="https://www.shareicon.net/download/2015/09/18/103157_man_512x512.png"
+              src="/images/profilepic.jpeg"
               alt="avatar"
               className="avatar-img"
               />
@@ -19,27 +19,27 @@ class Landing extends Component {
 
             <hr/>
 
-          <p>HTML/CSS | Bootstrap | JavaScript | React | React Native | NodeJS | Express | MongoDB</p>
+          <p>HTML/CSS | Bootstrap | JavaScript | React | MySQL | NodeJS | Express | MongoDB</p>
 
         <div className="social-links">
 
           {/* LinkedIn */}
-          <a href="http://google.com" rel="noopener noreferrer" target="_blank">
+          <a href="https://www.linkedin.com/in/mike-carter-85156ba7/" rel="noopener noreferrer" target="_blank">
             <i className="fa fa-linkedin-square" aria-hidden="true" />
           </a>
 
           {/* Github */}
-          <a href="http://google.com" rel="noopener noreferrer" target="_blank">
+          <a href="https://github.com/codehawkeye" rel="noopener noreferrer" target="_blank">
             <i className="fa fa-github-square" aria-hidden="true" />
           </a>
 
           {/* Freecodecamp */}
-          <a href="http://google.com" rel="noopener noreferrer" target="_blank">
+          <a href="https://www.freecodecamp.org/fcca6fd2acd-d62a-4e91-ad77-65f9dbe585a4" rel="noopener noreferrer" target="_blank">
             <i className="fa fa-free-code-camp" aria-hidden="true" />
           </a>
 
           {/* Youtube */}
-          <a href="http://google.com" rel="noopener noreferrer" target="_blank">
+          <a href="https://static.impression.co.uk/2014/05/loading1.gif" rel="noopener noreferrer" target="_blank">
             <i className="fa fa-youtube-square" aria-hidden="true" />
           </a>
 

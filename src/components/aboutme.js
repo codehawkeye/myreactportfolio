@@ -8,9 +8,10 @@ class About extends Component {
 
         <p>
           {" "}
-          I'm a full stack developer with experience in serverside development,
-          front-end framworks, and various javascript libraries. including React,
-          Node.js, jquery, MySQL, and MongoDB, {" "}
+          I'm a full stack developer with a a passion for great usability and design.
+          I have experience with serverside development,
+          front-end framworks, and various javascript libraries: React,
+          Node.js, jquery, MySQL, and MongoDB.  {" "}
         </p>
       </div>
     );
