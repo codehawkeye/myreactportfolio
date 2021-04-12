@@ -13,7 +13,7 @@ class Projects extends Component {
     if(this.state.activeTab === 0){
       return(
         <div className="projects-grid">
-          {/* Project 1 */}
+          {/* React Project 1 */}
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
             <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://i.postimg.cc/QCqj3MLS/Screen-Shot-2021-04-11-at-6-15-21-PM.png) center / cover'}} >Password Generator</CardTitle>
             <CardText>
@@ -71,7 +71,7 @@ class Projects extends Component {
               <Button colored></Button>
               <Button type="button" onClick={(e) => {
                 e.preventDefault();
-                window.location.href = 'https://codehawkeye.github.io/day_planner/‹';
+                window.location.href = 'https://codehawkeye.github.io/day_planner/';
               }}>Live Demo</Button>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
@@ -84,15 +84,78 @@ class Projects extends Component {
       )
     } else if(this.state.activeTab === 1) {
       return (
-        <div><h1>This is Angular</h1></div>
+        <div className="projects-grid">
+          {/* Angular Project 1 */}
+          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://i.postimg.cc/zf7J6jh6/Screen-Shot-2021-04-12-at-1-56-35-PM.png) center / cover'}} >Angular Project</CardTitle>
+            <CardText>
+            Please check back for updates on my Angular Applications.  
+            </CardText>
+            <CardActions border>
+              <Button type="button" onClick={(e) => {
+                e.preventDefault();
+                window.location.href= 'https://github.com/codehawkeye';
+              }}>GitHub</Button>
+              <Button colored></Button>
+              <Button type="button" onClick={(e) => {
+                e.preventDefault();
+                window.location.href= 'https://github.com/codehawkeye';
+              }} colored>Live Demo</Button>
+            </CardActions>
+            <CardMenu style={{color: '#fff'}}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card></div>
       )
     } else if(this.state.activeTab === 2) {
       return (
-        <div><h1>This is VueJS</h1></div>
+        <div className="projects-grid">
+        {/* VUEJS Project 1 */}
+        <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+          <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://i.postimg.cc/zf7J6jh6/Screen-Shot-2021-04-12-at-1-56-35-PM.png) center / cover'}} >VUEJS Project</CardTitle>
+          <CardText>
+          Please check back for updates on my VUEJS Applications.  
+          </CardText>
+          <CardActions border>
+            <Button type="button" onClick={(e) => {
+              e.preventDefault();
+              window.location.href= 'https://github.com/codehawkeye';
+            }}>GitHub</Button>
+            <Button colored></Button>
+            <Button type="button" onClick={(e) => {
+              e.preventDefault();
+              window.location.href= 'https://github.com/codehawkeye';
+            }} colored>Live Demo</Button>
+          </CardActions>
+          <CardMenu style={{color: '#fff'}}>
+            <IconButton name="share" />
+          </CardMenu>
+        </Card></div>
       )
     } else if(this.state.activeTab === 3) {
       return (
-        <div><h1>This is MongoDB</h1></div>
+        <div className="projects-grid">
+        {/* MONGODB Project 1 */}
+        <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+          <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://i.postimg.cc/zf7J6jh6/Screen-Shot-2021-04-12-at-1-56-35-PM.png) center / cover'}} >MONGO_DB Project</CardTitle>
+          <CardText>
+          Please check back for updates on my MONGO_DB Applications.  
+          </CardText>
+          <CardActions border>
+            <Button type="button" onClick={(e) => {
+              e.preventDefault();
+              window.location.href= 'https://github.com/codehawkeye';
+            }}>GitHub</Button>
+            <Button colored></Button>
+            <Button type="button" onClick={(e) => {
+              e.preventDefault();
+              window.location.href= 'https://github.com/codehawkeye';
+            }} colored>Live Demo</Button>
+          </CardActions>
+          <CardMenu style={{color: '#fff'}}>
+            <IconButton name="share" />
+          </CardMenu>
+        </Card></div>
       )
     }
 
