@@ -15,17 +15,20 @@ class Projects extends Component {
         <div className="projects-grid">
           {/* Project 1 */}
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >React Project #1</CardTitle>
+            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://i.postimg.cc/QCqj3MLS/Screen-Shot-2021-04-11-at-6-15-21-PM.png) center / cover'}} >Password Generator</CardTitle>
             <CardText>
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+            This application prompts the user to select preferred criteria to create a unique password.  
             </CardText>
             <CardActions border>
               <Button type="button" onClick={(e) => {
                 e.preventDefault();
-                window.location.href = 'http://codehawkeye.github.io/Homework_3/';
+                window.location.href= 'http://github.com/codehawkeye/password_generator';
               }}>GitHub</Button>
-              <Button colored>CodePen</Button>
-              <Button colored>Live Demo</Button>
+              <Button colored></Button>
+              <Button type="button" onClick={(e) => {
+                e.preventDefault();
+                window.location.href= 'http://codehawkeye.github.io/password_generator/';
+              }} colored>Live Demo</Button>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
