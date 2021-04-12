@@ -37,14 +37,20 @@ class Projects extends Component {
 
           {/* Project 2 */}
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >React Project #2</CardTitle>
+            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://i.postimg.cc/630P6437/Screen-Shot-2021-04-11-at-6-16-59-PM.png) center / cover'}} >L over H over</CardTitle>
             <CardText>
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+            This application shows you the best recipe’s for ingridents you have on hand
             </CardText>
             <CardActions border>
-              <Button colored>GitHub</Button>
-              <Button colored>CodePen</Button>
-              <Button colored>Live Demo</Button>
+            <Button type="button" onClick={(e) => {
+                e.preventDefault();
+                window.location.href= 'https://github.com/JRLaro/JJAM';
+              }}>GitHub</Button>
+              <Button colored></Button>
+              <Button type="button" onClick={(e) => {
+                e.preventDefault();
+                window.location.href = 'https://jrlaro.github.io/JJAM/';
+              }}>Live Demo</Button>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
@@ -53,14 +59,20 @@ class Projects extends Component {
 
           {/* Project 3 */}
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >React Project #3</CardTitle>
+            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://i.postimg.cc/SsHnsdKR/Screen-Shot-2021-04-12-at-2-20-14-PM.png) center / cover'}} >Day planner</CardTitle>
             <CardText>
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+            Busy Day? This application will save your daily task to keep you organized. 
             </CardText>
             <CardActions border>
-              <Button colored>GitHub</Button>
-              <Button colored>CodePen</Button>
-              <Button colored>Live Demo</Button>
+            <Button type="button" onClick={(e) => {
+                e.preventDefault();
+                window.location.href= 'https://github.com/codehawkeye/day_planner';
+              }}>GitHub</Button>
+              <Button colored></Button>
+              <Button type="button" onClick={(e) => {
+                e.preventDefault();
+                window.location.href = 'https://codehawkeye.github.io/day_planner/‹';
+              }}>Live Demo</Button>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
