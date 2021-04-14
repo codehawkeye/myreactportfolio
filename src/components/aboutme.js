@@ -1,10 +1,13 @@
 import React, { Component } from "react";
+import { Cell, Grid } from "react-mdl";
 
 class About extends Component {
   render() {
     return (
-      <div>
-        <h1>Bio</h1>
+      <div style={{textAlign: 'center'}}>
+        <Grid>
+          <Cell col={4}>
+        <h1>About Me</h1>
 
         <p>
           {" "}
@@ -12,7 +15,9 @@ class About extends Component {
           I have experience with serverside development,
           front-end framworks, and various javascript libraries: React,
           Node.js, jquery, MySQL, and MongoDB.  {" "}
-        </p>
+            </p>
+            </Cell>
+          </Grid>
       </div>
     );
   }
