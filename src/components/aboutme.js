@@ -11,13 +11,14 @@ class About extends Component {
 
         <p>
           {" "}
-          I'm a full stack developer with a a passion for great usability and design.
+          I'm a full stack developer with a a passion for great useability and design.
           I have experience with serverside development,
           front-end framworks, and various javascript libraries: React,
           Node.js, jquery, MySQL, and MongoDB.  {" "}
-            </p>
+            </p>            
             </Cell>
-          </Grid>
+        </Grid>
+        
       </div>
     );
   }
