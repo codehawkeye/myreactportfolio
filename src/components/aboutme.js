@@ -19,7 +19,7 @@ class About extends Component {
             <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />
             <p>
               {" "}
-              Veteran Leader Developer, I have always had a strong passion for
+              Junior Full Stack Developer, I have always had a strong passion for
               web development that begin with classes in c++, and linux/Unix in
               my undergrad.{" "}
             </p>
