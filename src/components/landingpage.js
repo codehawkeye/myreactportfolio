@@ -10,7 +10,7 @@ class Landing extends Component {
           <Cell col={12}>
             <img
               src="/images/profilepic.jpeg"
-              alt="avatar"
+              alt="Pic of Mike Carter"
               className="avatar-img"
               />
 
