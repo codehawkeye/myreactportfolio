@@ -1,48 +1,51 @@
 import React, { Component } from "react";
-import { Card, CardTitle, CardActions, Grid, Cell } from "react-mdl";
+import { Grid, Cell } from "react-mdl";
 
 class About extends Component {
   render() {
     return (
-      <Grid className="demo-grid-1">
-      <Cell col={3}></Cell>
-      <Cell col={4}> <div style={{ textAlign: "center" }}>
-        <Card
-          shadow={0}
-          style={{
-            paddingTop: "10",
-            width: "600px",
-            height: "500px",
-            background: "#3E4EB8",
-          }}
-        >
-          <CardTitle expand style={{ alignItems: "flex-start", color: "#fff" }}>
-            <h2 style={{ marginTop: "0" }}></h2>
-            
-            <h4>
+      <div>
+        <Grid>
+          <Cell col={4}>
+            <div style={{ textAlign: "center" }}>
+              <img
+                src="/images/profilepic.jpeg"
+                alt="avatar"
+                style={{ height: "300px" }}
+              />
+            </div>
+            <h2 style={{ paddingTop: "" }}>Mike Carter</h2>
+            <h4 style={{ color: "grey" }}>Web Developer</h4>
+            <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />
+            <p>
               {" "}
+              Veteran Leader Developer, I have always had a strong passion for
+              web development that begin with classes in c++, and linux/Unix in
+              my undergrad.{" "}
+            </p>
+            <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />
+            <h5>Address</h5>
+            <p>Orlando FL</p>
+            <h5>Phone</h5>
+            <p>(602)488-0985</p>
+            <h5>Email</h5>
+            <p>elite.mikecarter@gmail.com</p>
+
+            <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />
+          </Cell>
+          <Cell className="resume-right-col" col={8}>
+            <h2>About The Developer</h2>
+
+            <hr style={{ borderTop: "3px solid #e22947" }} />
+            <h4>
               I'm a full stack developer with a a passion for great usability
               and design. I have experience with server-side development,
               front-end frameworks, and various javascript libraries: React,
-              Node.js, jQuery, MySQL, and MongoDB.{" "}
+              Node.js, jQuery, MySQL, and MongoDB.
             </h4>
-          </CardTitle>
-          <CardActions
-            border
-            style={{
-              borderColor: "rgba(255, 255, 255, 0.2)",
-              display: "flex",
-              boxSizing: "border-box",
-              alignItems: "center",
-              color: "#fff",
-            }}
-          ></CardActions>
-        </Card>
-        </div></Cell>
-      <Cell col={4}>4</Cell>
- 
-     
+          </Cell>
         </Grid>
+      </div>
     );
   }
 }

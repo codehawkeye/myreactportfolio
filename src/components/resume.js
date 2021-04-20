@@ -15,11 +15,11 @@ class Resume extends Component {
               <img
                 src="/images/profilepic.jpeg"
                 alt="avatar"
-                style={{height: '200px'}}
+                style={{height: '300px'}}
                  />
             </div>
 
-            <h2 style={{paddingTop: '2em'}}>Mike Carter</h2>
+            <h2 style={{paddingTop: 'em'}}>Mike Carter</h2>
             <h4 style={{color: 'grey'}}>Web Developer</h4>
             <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
             <p> Veteran    Leader    Developer, I have always had a strong passion for web development that begin with classes in c++,  and linux/Unix in my undergrad.  </p>
