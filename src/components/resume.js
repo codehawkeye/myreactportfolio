@@ -14,7 +14,7 @@ class Resume extends Component {
             <div style={{textAlign: 'center'}}>
               <img
                 src="/images/profilepic.jpeg"
-                alt="avatar"
+                alt="Mike Carter"
                 style={{height: '300px'}}
                  />
             </div>

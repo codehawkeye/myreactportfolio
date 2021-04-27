@@ -11,9 +11,8 @@ class Contact extends Component {
             <h2>Mike Carter</h2>
             <img
               src="/images/profilepic.jpeg"
-              alt="Pic of Mike Carter"
-              className="avatar-img"
-              />
+              alt="Mike Carter"
+                            />
              <p style={{ width: '75%', margin: 'auto', paddingTop: '1em'}}>US. Army Veteran, Full Stack Delveloper</p>
 
           </Cell>
