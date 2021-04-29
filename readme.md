@@ -1,5 +1,3 @@
-# myreactportfolio
-A simple react portfolio to display my projects
 # MIKE CARTERS REACT PORTFOLIO
 
 # CodeHawkEye
