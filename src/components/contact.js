@@ -10,9 +10,10 @@ class Contact extends Component {
           <Cell col={6}>
             <h2>Mike Carter</h2>
             <img
-              src="/images/profilepic.jpeg"
-              alt="Mike Carter"
-                            />
+                src={process.env.PUBLIC_URL + "/images/profilepic.jpeg"} 
+                alt="Mike Carter"
+                style={{height: '300px'}}
+                 />
              <p style={{ width: '75%', margin: 'auto', paddingTop: '1em'}}>US. Army Veteran, Full Stack Delveloper</p>
 
           </Cell>
@@ -34,6 +35,13 @@ class Contact extends Component {
                   <ListItemContent style={{fontSize: '25px', fontFamily: 'Anton'}}>
                     <i className="fa fa-envelope" aria-hidden="true"/>
                   elite.mikecarter@gmail.com
+                  </ListItemContent>
+                </ListItem>
+
+                <ListItem>
+                  <ListItemContent style={{fontSize: '25px', fontFamily: 'Anton'}}>
+                    <i className="fa fa-linkedin" aria-hidden="true"/>
+                    linkedin.com/in/carter-mike/
                   </ListItemContent>
                 </ListItem>
 
