@@ -67,7 +67,7 @@ class Resume extends Component {
                 startYear={2019}
                 endYear={2020}
                 jobName="Lockheed Martin"
-                jobDescription=" Manufacturing Supervisor  "
+                jobDescription=" Manufacturing Supervisor : Managed schedule and production of Lockheed Martin products.  "
                 />
               <hr style={{borderTop: '3px solid #e22947'}} />
               {/* <h2>Skills</h2>

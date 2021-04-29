@@ -13,7 +13,7 @@ class Landing extends Component {
           <img
                 src={process.env.PUBLIC_URL + "/images/profilepic.jpeg"} 
                 alt="Mike Carter"
-                style={{height: '250px'}}
+                style={{height: '250px', paddingTop: '50px'}}
                  />
 
             <div className="banner-text">
