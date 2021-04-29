@@ -70,7 +70,7 @@ class Resume extends Component {
                 jobDescription=" Manufacturing Supervisor  "
                 />
               <hr style={{borderTop: '3px solid #e22947'}} />
-              <h2>Skills</h2>
+              {/* <h2>Skills</h2>
               <Skills
                 skill="javascript"
                 progress={85}
@@ -86,7 +86,7 @@ class Resume extends Component {
                     <Skills
                       skill="React"
                       progress={40}
-                      />
+                      /> */}
 
 
           </Cell>
