@@ -8,11 +8,11 @@ class About extends Component {
       <Grid>
         <Cell col={4}>
           <div style={{ textAlign: "center" }}>
-            <img
-              src="/images/profilepic.jpeg"
-              alt="Mike Carter"
-              style={{ height: "250px" }}
-            />
+          <img
+                src={process.env.PUBLIC_URL + "/images/profilepic.jpeg"} 
+                alt="Mike Carter"
+                style={{height: '300px'}}
+                 />
           </div>
           <h2 style={{ paddingTop: "" }}>Mike Carter</h2>
           <h4 style={{ color: "grey" }}>Web Developer</h4>

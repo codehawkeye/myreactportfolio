@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
 import Education from './education';
 import Experience from './experience';
-import Skills from './skills';
+// import Skills from './skills';
 
 
 class Resume extends Component {
@@ -13,7 +13,7 @@ class Resume extends Component {
           <Cell col={4}>
             <div style={{textAlign: 'center'}}>
               <img
-                src="/images/profilepic.jpeg"
+                src={process.env.PUBLIC_URL + "/images/profilepic.jpeg"} 
                 alt="Mike Carter"
                 style={{height: '300px'}}
                  />

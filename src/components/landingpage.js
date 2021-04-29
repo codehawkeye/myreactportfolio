@@ -11,10 +11,10 @@ class Landing extends Component {
         <Grid className="landing-grid">
           <Cell col={12}>
           <img
-              src="./profilepic.jpeg"
-              alt="avatar"
-              className="avatar-img"
-              />
+                src={process.env.PUBLIC_URL + "/images/profilepic.jpeg"} 
+                alt="Mike Carter"
+                style={{height: '300px'}}
+                 />
 
             <div className="banner-text">
               <h1>Full Stack Web Developer</h1>
